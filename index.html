@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- SEO & Social Sharing Meta Tags -->
+  <title>Rakesh weds Yashika — 5 November 2026 | Wedding Invitation</title>
+  <meta name="title" content="Rakesh weds Yashika — 5 November 2026">
+  <meta name="description" content="With divine blessings, the family cordially invites you to the wedding of Dr. Rakesh V. & B.R. Yashika on Thursday, 5 November 2026 at Sri Phoolchand Convention Hall, Mulabagilu.">
+  <meta name="keywords" content="Rakesh, Yashika, Wedding Invitation, Phoolchand Convention Hall, Mulabagilu, Indian Wedding">
+  <meta name="author" content="Venkatesh & Varalakshmi Family">
+  <meta name="theme-color" content="#800020">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Rakesh weds Yashika — 5 November 2026">
+  <meta property="og:description" content="With divine blessings, the family cordially invites you to the wedding of Dr. Rakesh V. & B.R. Yashika on Thursday, 5 November 2026 at Sri Phoolchand Convention Hall, Mulabagilu.">
+  <meta property="og:site_name" content="Dr. Rakesh & Yashika Wedding">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Rakesh weds Yashika — 5 November 2026">
+  <meta property="twitter:description" content="With divine blessings, the family cordially invites you to the wedding of Dr. Rakesh V. & B.R. Yashika on Thursday, 5 November 2026 at Sri Phoolchand Convention Hall, Mulabagilu.">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🪷</text></svg>">
+
+  <!-- Google Fonts Preconnect & Stylesheets -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Cormorant+SC:wght@500;600;700&family=Great+Vibes&family=Marcellus&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Floating Audio & Controls -->
+  <div class="floating-controls">
+    <button id="musicToggle" class="control-btn" aria-label="Toggle traditional wedding shehnai melody" title="Toggle Music">
+      <span class="icon-music">♫</span>
+      <span class="music-tooltip">Play Shehnai Raga</span>
+    </button>
+  </div>
+
+  <!-- Decorative Corner Motifs (Floating) -->
+  <div class="fixed-mandala top-left" aria-hidden="true"></div>
+  <div class="fixed-mandala top-right" aria-hidden="true"></div>
+  <div class="fixed-mandala bottom-left" aria-hidden="true"></div>
+  <div class="fixed-mandala bottom-right" aria-hidden="true"></div>
+
+  <!-- Falling Flower Petals Canvas Container -->
+  <canvas id="petalsCanvas" class="petals-canvas" aria-hidden="true"></canvas>
+
+  <!-- ==================== HERO SECTION ==================== -->
+  <header id="hero" class="hero-section">
+    <div class="hero-pattern-overlay" aria-hidden="true"></div>
+
+    <div class="hero-content container">
+      <!-- Auspicious Invocations -->
+      <div class="blessings-bar fade-in" data-delay="100">
+        <p class="sanskrit-chant">|| Sri Manjunatha Swamy Prasanna || Om || Sri Prasanna Anjaneya Swamy Prasanna ||</p>
+      </div>
+
+      <!-- Sacred Ganesha Motif -->
+      <div class="ganesha-wrapper scale-in" data-delay="300">
+        <div class="ganesha-ring">
+          <svg class="ganesha-svg" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Lord Sri Ganesha">
+            <!-- Halo Rings -->
+            <circle cx="60" cy="60" r="54" stroke="url(#goldGradient)" stroke-width="1.5" stroke-dasharray="4 3"/>
+            <circle cx="60" cy="60" r="48" stroke="url(#maroonGold)" stroke-width="1"/>
+            <!-- Tilak & Trinetra -->
+            <path d="M57 32 Q60 22 63 32 Q60 28 57 32 Z" fill="#D4A843"/>
+            <ellipse cx="60" cy="38" rx="2" ry="3.5" fill="#800020"/>
+            <path d="M52 35 C56 36 64 36 68 35" stroke="#D4A843" stroke-width="1.5" stroke-linecap="round"/>
+            <!-- Crown / Mukuta -->
+            <path d="M46 36 L60 16 L74 36 Q60 33 46 36 Z" fill="url(#goldGradient)" stroke="#8B6914" stroke-width="1"/>
+            <circle cx="60" cy="16" r="3" fill="#D4A843"/>
+            <!-- Head & Ears -->
+            <path d="M48 40 C34 38 28 48 34 60 C38 68 46 64 47 62" stroke="#8B6914" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+            <path d="M72 40 C86 38 92 48 86 60 C82 68 74 64 73 62" stroke="#8B6914" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+            <path d="M48 40 C48 35 72 35 72 40 C73 48 72 58 68 66 C65 72 63 84 66 90 C68 93 72 92 73 88 C74 85 75 80 72 78" stroke="#800020" stroke-width="3" stroke-linecap="round" fill="none"/>
+            <!-- Modak in Trunk / Tusk -->
+            <path d="M52 64 L50 67" stroke="#D4A843" stroke-width="2.5" stroke-linecap="round"/>
+            <circle cx="73" cy="80" r="3.5" fill="#D4A843" stroke="#8B6914" stroke-width="0.8"/>
+            <!-- Belly & Base Curve -->
+            <path d="M42 70 C38 82 44 98 60 98 C72 98 80 88 80 78" stroke="#8B6914" stroke-width="1.8" stroke-dasharray="3 2" fill="none"/>
+            <!-- Gradients Definition -->
+            <defs>
+              <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#ECC876"/>
+                <stop offset="50%" stop-color="#D4A843"/>
+                <stop offset="100%" stop-color="#8B6914"/>
+              </linearGradient>
+              <linearGradient id="maroonGold" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#800020"/>
+                <stop offset="100%" stop-color="#D4A843"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+      </div>
+
+      <div class="divine-subtitles fade-up" data-delay="500">
+        <span class="blessing-sanskrit">Śrīrasthu · Subhamasthu</span>
+        <span class="family-badge">V's Family</span>
+      </div>
+
+      <h1 class="hero-title fade-up" data-delay="700">Wedding Invitation</h1>
+
+      <!-- Ornate SVG Floral Divider -->
+      <div class="ornate-divider fade-up" data-delay="850">
+        <svg class="divider-svg" viewBox="0 0 360 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 15 H130 M230 15 H360" stroke="url(#goldLine)" stroke-width="1.5"/>
+          <circle cx="130" cy="15" r="2.5" fill="#D4A843"/>
+          <circle cx="230" cy="15" r="2.5" fill="#D4A843"/>
+          <circle cx="180" cy="15" r="6" stroke="#800020" stroke-width="1.5" fill="#FFF8F0"/>
+          <circle cx="180" cy="15" r="2.5" fill="#D4A843"/>
+          <path d="M160 15 C170 8 175 8 180 15 C185 8 190 8 200 15 C190 22 185 22 180 15 C175 22 170 22 160 15 Z" fill="url(#goldGradient)" fill-opacity="0.6"/>
+          <defs>
+            <linearGradient id="goldLine" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#8B6914" stop-opacity="0"/>
+              <stop offset="50%" stop-color="#D4A843" stop-opacity="0.8"/>
+              <stop offset="100%" stop-color="#8B6914"/>
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+
+      <!-- Couple Names in Script -->
+      <div class="couple-names fade-up" data-delay="1000">
+        <div class="name-block groom-hero">
+          <span class="name-script">Dr. Rakesh V.</span>
+          <span class="name-qualification">MBBS, MD</span>
+        </div>
+        <div class="weds-badge">
+          <span class="weds-flourish">—</span>
+          <span class="weds-text">weds</span>
+          <span class="weds-flourish">—</span>
+        </div>
+        <div class="name-block bride-hero">
+          <span class="name-script">B.R. Yashika</span>
+          <span class="name-qualification">BE</span>
+        </div>
+      </div>
+
+      <!-- Date & Auspicious Lagna Details -->
+      <div class="hero-date-block fade-up" data-delay="1200">
+        <div class="date-gold-frame">
+          <p class="hero-date"><span class="day-highlight">Thursday</span>, 5 November 2026</p>
+          <div class="date-separator-dot">❖</div>
+          <p class="hero-time">at 8:30 A.M. · Vruschika Lagnam</p>
+          <p class="hero-venue-brief">Sri Phoolchand Convention Hall, Mulabagilu</p>
+        </div>
+      </div>
+
+      <!-- Scroll to unfold call-to-action -->
+      <a href="#countdown-section" class="scroll-unfold-btn fade-up" data-delay="1400" aria-label="Scroll down to invitation">
+        <span class="scroll-label">↓ scroll to unfold ↓</span>
+        <div class="scroll-chevron-ring">
+          <svg class="chevron-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </div>
+      </a>
+    </div>
+
+    <!-- Bottom Wave / Temple Silhouette Motif -->
+    <div class="hero-bottom-border" aria-hidden="true"></div>
+  </header>
+
+
+  <!-- ==================== COUNTDOWN SECTION ==================== -->
+  <section id="countdown-section" class="countdown-section">
+    <div class="container section-inner">
+      <div class="section-header text-center reveal-on-scroll">
+        <span class="section-subtitle">Counting the auspicious moments</span>
+        <h2 class="section-title">Until We Celebrate</h2>
+        <div class="title-ornament">
+          <span class="ornament-line"></span>
+          <span class="ornament-gem">✦</span>
+          <span class="ornament-line"></span>
+        </div>
+        <p class="countdown-desc">Every ticking moment draws us closer to our joyous union and sacred vows.</p>
+      </div>
+
+      <div class="countdown-grid" id="countdownGrid" data-target="2026-11-05T08:30:00+05:30">
+        <!-- Days Card -->
+        <div class="countdown-card-wrapper reveal-on-scroll" data-delay="100">
+          <div class="countdown-card">
+            <div class="card-inner">
+              <div class="card-accent-top"></div>
+              <div class="unit-number" id="daysValue">00</div>
+              <div class="unit-label">Days</div>
+              <div class="card-pattern"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hours Card -->
+        <div class="countdown-card-wrapper reveal-on-scroll" data-delay="250">
+          <div class="countdown-card">
+            <div class="card-inner">
+              <div class="card-accent-top"></div>
+              <div class="unit-number" id="hoursValue">00</div>
+              <div class="unit-label">Hours</div>
+              <div class="card-pattern"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Minutes Card -->
+        <div class="countdown-card-wrapper reveal-on-scroll" data-delay="400">
+          <div class="countdown-card">
+            <div class="card-inner">
+              <div class="card-accent-top"></div>
+              <div class="unit-number" id="minutesValue">00</div>
+              <div class="unit-label">Minutes</div>
+              <div class="card-pattern"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Seconds Card -->
+        <div class="countdown-card-wrapper reveal-on-scroll" data-delay="550">
+          <div class="countdown-card">
+            <div class="card-inner">
+              <div class="card-accent-top"></div>
+              <div class="unit-number" id="secondsValue">00</div>
+              <div class="unit-label">Seconds</div>
+              <div class="card-pattern"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="auspicious-mantra text-center reveal-on-scroll">
+        <p class="mantra-text">“Māṅgalyam tantunānena mama jīvana hetunā · Kaṇṭhe badhnāmi subhage tvaṁ jīva śaradaḥ śatam”</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==================== WEDDING INVITATION CARD SECTION ==================== -->
+  <section id="invitation-card-section" class="invitation-section">
+    <div class="container section-inner">
+      <div class="section-header text-center reveal-on-scroll">
+        <span class="section-subtitle">With Divine Blessings</span>
+        <h2 class="section-title">The Sacred Invitation</h2>
+        <div class="title-ornament">
+          <span class="ornament-line"></span>
+          <span class="ornament-gem">🪷</span>
+          <span class="ornament-line"></span>
+        </div>
+      </div>
+
+      <!-- 3D Perspective Card Container -->
+      <div class="invitation-card-perspective">
+        <article class="royal-invitation-card reveal-card" id="invitationCard">
+          <!-- Ornate Card Corner Flourishes -->
+          <div class="card-corner corner-tl" aria-hidden="true"></div>
+          <div class="card-corner corner-tr" aria-hidden="true"></div>
+          <div class="card-corner corner-bl" aria-hidden="true"></div>
+          <div class="card-corner corner-br" aria-hidden="true"></div>
+
+          <!-- Card Inner Frame with Double Gold Borders -->
+          <div class="card-inner-frame">
+            <!-- Header Sanskrit Blessings -->
+            <div class="invitation-header text-center">
+              <p class="chant-top">|| Sri Manjunatha Swamy Prasanna || Om || Sri Prasanna Anjaneya Swamy Prasanna ||</p>
+              
+              <div class="card-ganesha-icon">
+                <svg viewBox="0 0 60 60" width="50" height="50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="30" cy="30" r="28" stroke="#D4A843" stroke-width="1.2"/>
+                  <path d="M28 17 Q30 11 32 17 Z" fill="#D4A843"/>
+                  <ellipse cx="30" cy="20" rx="1.5" ry="2" fill="#800020"/>
+                  <path d="M24 22 C16 20 13 26 16 32 C18 36 22 34 23 33" stroke="#800020" stroke-width="1.8" stroke-linecap="round"/>
+                  <path d="M36 22 C44 20 47 26 44 32 C42 36 38 34 37 33" stroke="#800020" stroke-width="1.8" stroke-linecap="round"/>
+                  <path d="M24 22 C24 19 36 19 36 22 C37 26 36 32 34 36 C32 40 31 46 33 49 C34 50.5 36 50 37 48" stroke="#800020" stroke-width="2" stroke-linecap="round"/>
+                  <circle cx="37" cy="45" r="2" fill="#D4A843"/>
+                </svg>
+              </div>
+
+              <p class="trio-blessings">Śrīrasthu · Subhamasthu · Avighnamasthu</p>
+              <h3 class="card-main-heading">Wedding Invitation</h3>
+              
+              <div class="card-divider-mini">
+                <span class="mini-line"></span>
+                <span class="mini-motif">❖</span>
+                <span class="mini-line"></span>
+              </div>
+            </div>
+
+            <!-- Warm Solicit Message -->
+            <div class="invitation-body text-center">
+              <p class="solicit-text">
+                We solicit your gracious presence with family and friends on the auspicious occasion of the marriage of
+              </p>
+
+              <!-- Groom Details -->
+              <div class="person-profile groom-profile">
+                <span class="salutation-prefix">Chi. Ry.</span>
+                <h4 class="person-name">Dr. Rakesh V.</h4>
+                <p class="qualification-tag">MBBS, MD</p>
+                <p class="parentage">
+                  Elder S/o. <strong>Smt. K. Varalakshmi (Papa)</strong> &amp; <strong>Sri C. Venkatesh</strong> <span class="origin-tag">(Gudadahalli)</span>
+                </p>
+                <p class="grandparentage">
+                  Grandson of Gudibande <strong>Late Smt. Narayanamma</strong> &amp; <strong>Late Sri Chikka Anjinappa</strong>
+                </p>
+                <p class="residence-address">
+                  <em>Near Railway Station, Scout Camp Road, Doddaballapur - 561203</em>
+                </p>
+              </div>
+
+              <!-- Connecting Knot -->
+              <div class="alliance-knot">
+                <div class="knot-flourish">❦</div>
+                <span class="with-text">— with —</span>
+                <div class="knot-flourish">❦</div>
+              </div>
+
+              <!-- Bride Details -->
+              <div class="person-profile bride-profile">
+                <span class="salutation-prefix">Chi. Sou.</span>
+                <h4 class="person-name">B.R. Yashika</h4>
+                <p class="qualification-tag">BE</p>
+                <p class="parentage">
+                  Elder D/o. <strong>Smt. Deena</strong> <span class="origin-tag">(Ex. Municipal Councilor)</span> &amp; <strong>Sri B.C. Ramachandra</strong> <span class="origin-tag">(Revenue Dept.)</span>
+                </p>
+                <p class="residence-address">
+                  <em>Thotlapalya, Mulabagilu Town</em>
+                </p>
+              </div>
+
+              <div class="card-divider-mini">
+                <span class="mini-line"></span>
+                <span class="mini-motif">🪷</span>
+                <span class="mini-line"></span>
+              </div>
+
+              <!-- Muhurtham & Ceremony Box Inside Card -->
+              <div class="ceremony-summary-box">
+                <div class="ceremony-item">
+                  <span class="item-title">Muhurtham</span>
+                  <p class="item-details">
+                    <strong>Thursday, 5th November 2026</strong><br>
+                    Between <strong>8:30 A.M. to 9:30 A.M.</strong><br>
+                    <span class="lagna-highlight">Vruschika Lagnam</span>
+                  </p>
+                </div>
+
+                <div class="ceremony-item">
+                  <span class="item-title">Reception</span>
+                  <p class="item-details">
+                    <strong>Wednesday, 4th November 2026</strong><br>
+                    From <strong>7:00 P.M.</strong> onwards
+                  </p>
+                </div>
+              </div>
+
+              <!-- Venue Mention Inside Card -->
+              <div class="card-venue-mention">
+                <span class="venue-lbl">Venue</span>
+                <h5 class="venue-highlight-title">Sri Phoolchand Convention Hall</h5>
+                <p class="venue-highlight-addr">M.N. Halli Road, Bypass Road, Mulabagilu</p>
+              </div>
+
+              <!-- Invited By Section -->
+              <div class="invited-by-block">
+                <span class="invite-header-badge">Awaiting Your Gracious Presence</span>
+                <ul class="invitees-list">
+                  <li><strong>Smt. K. Varalakshmi (Papa) &amp; Sri C. Venkatesh</strong> <span class="sub-clan">(Gudadahalli)</span></li>
+                  <li><strong>Smt. Nandini L.S. &amp; Sri Pavan V.</strong></li>
+                  <li class="and-family-note">&amp; Relatives, Friends &amp; Well-Wishers</li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==================== EVENTS & RITUALS SECTION ==================== -->
+  <section id="rituals-section" class="rituals-section">
+    <div class="container section-inner">
+      <div class="section-header text-center reveal-on-scroll">
+        <span class="section-subtitle">The Festivities</span>
+        <h2 class="section-title">Rituals &amp; Celebrations</h2>
+        <div class="title-ornament">
+          <span class="ornament-line"></span>
+          <span class="ornament-gem">❖</span>
+          <span class="ornament-line"></span>
+        </div>
+        <p class="section-lead">Please grace each celebration with your love and divine blessings.</p>
+      </div>
+
+      <div class="events-grid">
+        <!-- Event 1: Reception -->
+        <div class="event-card reveal-on-scroll" data-delay="100">
+          <div class="event-card-border"></div>
+          <div class="event-badge">Eve of Wedding</div>
+          <div class="event-icon-circle">
+            <!-- Music & Celebration Garland Icon -->
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M9 18V5l12-2v13"></path>
+              <circle cx="6" cy="18" r="3"></circle>
+              <circle cx="18" cy="16" r="3"></circle>
+            </svg>
+          </div>
+          <h3 class="event-title">Wedding Reception</h3>
+          <p class="event-date">Wednesday, 4 November 2026</p>
+          <div class="event-meta">
+            <span class="meta-item"><span class="meta-icon">⏰</span> 7:00 P.M. Onwards</span>
+            <span class="meta-item"><span class="meta-icon">📍</span> Sri Phoolchand Convention Hall</span>
+          </div>
+          <p class="event-desc">
+            A festive evening filled with laughter, music, dinner, and celebration to welcome the newlyweds amongst close family, friends, and cherished guests.
+          </p>
+          <div class="event-actions">
+            <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Wedding+Reception+|+Dr.+Rakesh+%26+Yashika&dates=20261104T133000Z/20261104T173000Z&details=Reception+of+Dr.+Rakesh+V.+%26+B.R.+Yashika+at+Sri+Phoolchand+Convention+Hall,+Mulabagilu&location=Sri+Phoolchand+Convention+Hall,+Mulabagilu" target="_blank" rel="noopener noreferrer" class="cal-btn">
+              + Add to Google Calendar
+            </a>
+          </div>
+        </div>
+
+        <!-- Event 2: Muhurtham -->
+        <div class="event-card muhurtham-card reveal-on-scroll" data-delay="300">
+          <div class="event-card-border"></div>
+          <div class="event-badge sacred-badge">Sacred Muhurtham</div>
+          <div class="event-icon-circle sacred-icon-circle">
+            <!-- Sacred Fire / Kalasha Motif -->
+            <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2c1 2 4 4 4 8a4 4 0 0 1-8 0c0-4 3-6 4-8z"></path>
+              <path d="M5 14h14l-1.5 7h-11L5 14z"></path>
+              <circle cx="12" cy="17" r="1.5"></circle>
+            </svg>
+          </div>
+          <h3 class="event-title">Pelli Muhurtham</h3>
+          <p class="event-date">Thursday, 5 November 2026</p>
+          <div class="event-meta">
+            <span class="meta-item"><span class="meta-icon">⏰</span> 8:30 A.M. – 9:30 A.M.</span>
+            <span class="meta-item"><span class="meta-icon">🌟</span> Vruschika Lagnam</span>
+            <span class="meta-item"><span class="meta-icon">📍</span> Sri Phoolchand Convention Hall</span>
+          </div>
+          <p class="event-desc">
+            The sacred Vedic wedding rites, Kanyadaana, and Mangalya Dharana solemnized in the presence of Agni and elders at the auspicious Vruschika Lagna.
+          </p>
+          <div class="event-actions">
+            <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Pelli+Muhurtham+|+Dr.+Rakesh+%26+Yashika&dates=20261105T030000Z/20261105T060000Z&details=Sacred+Wedding+Muhurtham+of+Dr.+Rakesh+V.+%26+B.R.+Yashika+at+Sri+Phoolchand+Convention+Hall,+Mulabagilu&location=Sri+Phoolchand+Convention+Hall,+Mulabagilu" target="_blank" rel="noopener noreferrer" class="cal-btn sacred-btn">
+              + Add to Google Calendar
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==================== VENUE SECTION ==================== -->
+  <section id="venue-section" class="venue-section">
+    <div class="container section-inner">
+      <div class="section-header text-center reveal-on-scroll">
+        <span class="section-subtitle">The Destination</span>
+        <h2 class="section-title">The Wedding Venue</h2>
+        <div class="title-ornament">
+          <span class="ornament-line"></span>
+          <span class="ornament-gem">🏛️</span>
+          <span class="ornament-line"></span>
+        </div>
+        <p class="section-lead">A majestic setting chosen to host our families and welcome our esteemed guests.</p>
+      </div>
+
+      <div class="venue-card reveal-on-scroll" data-delay="150">
+        <div class="venue-visual-art">
+          <!-- Traditional Temple Arch Vector Art -->
+          <svg class="temple-arch-svg" viewBox="0 0 400 160" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 160 L0 80 Q100 80 150 40 Q200 0 250 40 Q300 80 400 80 L400 160 Z" fill="rgba(128, 0, 32, 0.06)"/>
+            <path d="M20 160 L20 90 Q110 90 160 50 Q200 15 240 50 Q290 90 380 90 L380 160" stroke="#D4A843" stroke-width="1.5" stroke-dasharray="4 3"/>
+            <circle cx="200" cy="18" r="8" fill="#D4A843"/>
+            <circle cx="200" cy="18" r="4" fill="#800020"/>
+            <!-- Kalasha finial -->
+            <path d="M195 28 L205 28 L203 36 L197 36 Z" fill="#D4A843"/>
+          </svg>
+          <div class="venue-greetings">
+            <span class="welcome-shloka">“Atithi Devo Bhava”</span>
+          </div>
+        </div>
+
+        <div class="venue-content text-center">
+          <h3 class="venue-name">Sri Phoolchand Convention Hall</h3>
+          <p class="venue-address-full">
+            M.N. Halli Road, Bypass Road,<br>
+            Mulabagilu, Karnataka
+          </p>
+
+          <p class="venue-description">
+            Sri Phoolchand Convention Hall is conveniently situated on the Bypass Road of Mulabagilu town, featuring ample parking space and welcoming amenities for all our guests travelling from Doddaballapur, Bengaluru, and Mulabagilu.
+          </p>
+
+          <div class="venue-cta-wrap">
+            <a href="https://www.google.com/maps/search/?api=1&query=Sri+Phoolchand+Convention+Hall+Mulabagilu" target="_blank" rel="noopener noreferrer" class="map-action-btn">
+              <svg class="map-pin-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <span>View On Google Maps</span>
+            </a>
+          </div>
+
+          <div class="route-hint-box">
+            <span class="hint-icon">🚗</span>
+            <span class="hint-text">Convenient highway connectivity via Bangalore–Tirupati NH 75 bypass.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==================== FOOTER SECTION ==================== -->
+  <footer id="footer-section" class="footer-section">
+    <div class="container text-center">
+      <!-- Ornate Top Divider -->
+      <div class="footer-divider">
+        <svg viewBox="0 0 320 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 12 H120 M200 12 H320" stroke="url(#goldGradFooter)" stroke-width="1.2"/>
+          <circle cx="160" cy="12" r="5" stroke="#D4A843" stroke-width="1.2" fill="#800020"/>
+          <circle cx="160" cy="12" r="2" fill="#ECC876"/>
+          <circle cx="140" cy="12" r="2" fill="#D4A843"/>
+          <circle cx="180" cy="12" r="2" fill="#D4A843"/>
+          <defs>
+            <linearGradient id="goldGradFooter" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#8B6914" stop-opacity="0"/>
+              <stop offset="50%" stop-color="#D4A843"/>
+              <stop offset="100%" stop-color="#8B6914" stop-opacity="0"/>
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+
+      <div class="footer-blessing">
+        <h3 class="shubham-heading">Śubham Bhavatu</h3>
+        <p class="shubham-sub">“May All Be Blessed With Prosperity, Harmony &amp; Joy”</p>
+      </div>
+
+      <!-- Family & Contact Information -->
+      <div class="footer-contacts-card">
+        <h4 class="contacts-title">Invited With Love &amp; Respect By</h4>
+        <p class="family-host-names">
+          <strong>Smt. K. Varalakshmi (Papa) &amp; Sri C. Venkatesh</strong> (Gudadahalli)<br>
+          <strong>Smt. Nandini L.S. &amp; Sri Pavan V.</strong>
+        </p>
+        
+        <p class="residence-footer">Scout Camp Road, Doddaballapur - 561203</p>
+
+        <div class="phone-numbers-box">
+          <span class="call-badge">For queries &amp; travel assistance:</span>
+          <div class="phone-links">
+            <a href="tel:+919980326855" class="phone-pill">
+              <span class="phone-icon">📞</span> +91 9980326855
+            </a>
+            <span class="phone-sep">|</span>
+            <a href="tel:+919731404377" class="phone-pill">
+              <span class="phone-icon">📞</span> +91 9731404377
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-signature">
+        <p class="heart-text">Celebrating the wedding of Dr. Rakesh V. &amp; B.R. Yashika · November 2026</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

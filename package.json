@@ -1,0 +1,12 @@
+{
+  "name": "rakesh-wedding-invitation",
+  "version": "1.0.0",
+  "description": "Wedding Invitation of Dr. Rakesh V. & B.R. Yashika",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve ."
+  },
+  "keywords": ["wedding", "invitation", "indian-wedding"],
+  "author": "Family",
+  "license": "ISC"
+}
